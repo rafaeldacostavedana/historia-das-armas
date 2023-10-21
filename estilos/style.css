@@ -80,14 +80,47 @@ main {
     border-radius: 0 0 10px 10px;
 }
 
-main img.x {
-    display: block;
-    margin: auto;
-    max-width: 350px;
-}
-
 img {
     width: 100%;
+}
+
+.seta {
+    width: 8%;
+    display: block;
+    margin: auto;
+}
+
+.setad {
+    width: 8%;
+    display: block;
+    float: right;
+}
+
+.setae {
+    width: 8%;
+    display: block;
+    float: left;
+}
+
+.prox {
+    text-align: center;
+    display: block;
+}
+
+.proxd {
+    float: right;
+    display: block;
+    font-size: 1.3em;
+}
+
+.proxe {
+    float: left;
+    display: block;
+    font-size: 1.3em;
+}
+
+.prox:hover {
+    color: var(--bege);
 }
 
 article {
@@ -109,7 +142,7 @@ article p {
     text-align: justify;
     text-indent: 25px;
     line-height: 1.8em;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 article a {
@@ -118,7 +151,7 @@ article a {
 }
 
 article a:hover {
-    color:white;
+    color: white;
 }
 
 footer {
