@@ -70,6 +70,15 @@ nav>a:hover {
     transition-duration: .4s;
 }
 
+#H {
+    color: var(--vermelho3);
+    background-color: var(--bege2);
+    border-radius: 5px;
+    padding:5px 30px;
+}
+
+/*Conteúdo principal*/
+
 main {
     background-color: var(--vermelho);
     min-width: 280px;
@@ -105,6 +114,7 @@ img {
 .prox {
     text-align: center;
     display: block;
+    font-size: 1.3em;
 }
 
 .proxd {
@@ -136,6 +146,11 @@ article h1 {
     margin-bottom: 20px;
 }
 
+article h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 article p {
     color: var(--bege);
     margin: 15px 0px;
@@ -147,11 +162,11 @@ article p {
 
 article a {
     text-decoration: none;
-    color: var(--bege2);
+    color:white;
 }
 
 article a:hover {
-    color: white;
+    color:rgb(255, 187, 60);
 }
 
 footer {
